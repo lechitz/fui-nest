@@ -8,7 +8,11 @@ POST http://localhost:3000/routes
 Content-Type: application/json
 
 {
-    "name": "router test 1",
-    "source_id": "1",
-    "destination_id": "2"
+    "name": "teste",
+    "source_id": "EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMDAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTU3NSwgQnJhc2lsIjESLwoUChIJja7gMwfdpgARgN9V_RFivpEQ6AcqFAoSCfmsiD4H3aYAEdRlj37c",
+    "destination_id": "EkZBdi4gR292LiBWYWxhZGFyZXMSIDEwMzAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTY5MCwgQnJhc2lsIjESLwoUChIJTbH1swDdpgARYOtQ1DjwovIQhggqFAoSCfmsiD4H3aYAEdRlj37c",
 }
+
+GET http://localhost:3000/places?text=av governador valadares, betim, 1030
+
+GET http://localhost:3000/directions?originId=xxxx&destinationId=yyyy
